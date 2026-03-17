@@ -16,7 +16,7 @@ function About() {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_my_imge">
-            <img src={IMagME} alt="About Me" loading="lazy" />
+            <img src={IMagME} alt="مينا سمير مبرمج واجهات أمامية ومطور ويب - Mina Samir Front-end Web Developer Portfolio" title="مينا سمير مبرمج - Mina Samir" loading="lazy" />
           </div>
         </div>
         <div className="about_content">
@@ -39,7 +39,7 @@ function About() {
               <small>6+ completed</small>
             </div>
           </div>
-          <p>I’m a Front-End Developer focused on building responsive and user-friendly interfaces. I care about writing clean, maintainable code and following modern web standards. I always aim to improve performance, accessibility, and overall user experience in every project I work on. I’m continuously learning and developing my skills to stay updated with the latest trends and technologies in the frontend world.</p>
+          <p>I’m a Front-end Developer with a passion for creating immersive, pixel-perfect user interfaces and highly interactive web experiences. With a deep mastery of React, modern JavaScript, and advanced CSS techniques, I transform complex designs into fluid, responsive, and performance-optimized digital products. I focus on writing clean, maintainable code and staying at the forefront of frontend innovation.</p>
           <a href="#contact" className='btn btn-primary' id="about-lets-talk-btn">Let's Talk</a>
         </div>
       </div>

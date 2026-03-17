@@ -1,7 +1,7 @@
 {
-  "name": "blue-ecommerce-main",
+  "name": "my-vite-portfolio",
   "version": "0.0.0",
-  "homepage": "https://minasamir1401.github.io/blue-ecommerce-main",
+  "homepage": "https://minasamir1401.github.io/my-vite-portfolio",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,9 +13,11 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@unhead/react": "^2.0.19",
     "emailjs-com": "^3.2.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-helmet-async": "^2.0.5",
     "react-icons": "^5.5.0"
   },
   "devDependencies": {

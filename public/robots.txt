@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://minasamir1401.github.io/my-vite-portfolio/sitemap.xml

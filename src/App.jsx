@@ -11,6 +11,11 @@ const Footer = React.lazy(() => import('./components/footer/Footer'));
 function App() {
   return (
     <>
+      <div className="background-animation">
+        <div className="bg-blob-1"></div>
+        <div className="bg-blob-2"></div>
+        <div className="bg-blob-3"></div>
+      </div>
       <Suspense fallback={<div>Loading...</div>}>
         <Home />
         <Nav />

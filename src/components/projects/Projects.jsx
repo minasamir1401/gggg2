@@ -1,54 +1,49 @@
 import React from "react";
 import "./projects.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+
 
 const portfolioData = [
   {
     id: 1,
-    image: IMG1,
+    image: "https://l.top4top.io/p_3715lwcil1.jpg",
     title: "E-Commerce",
     github: "https://github.com/minasamir1401/blue-ecommerce-main.git",
     demo: "https://minasamir1401.github.io/blue-ecommerce-main/",
   },
   {
     id: 2,
-    image: IMG2,
+    image: 'https://f.top4top.io/p_3715iwmpc1.jpg',
     title: "Portfolio",
     github: "https://github.com/minasamir1401/my-vite-portfolio",
     demo: "https://minasamir1401.github.io/my-vite-portfolio/",
   },
   {
     id: 3,
-    image: IMG3,
+    image: "https://a.top4top.io/p_3715dyakc2.jpg",
     title: "Food-Lover",
     github: "https://github.com/minasamir1401/Food-Lover-main",
     demo: "https://minasamir1401.github.io/Food-Lover-main/",
   },
   {
     id: 4,
-    image: IMG4,
-    title: "Juicy-GSAP",
-    github: "https://github.com/minasamir1401/Juicy-GSAP",
-    demo: "https://chimerical-syrniki-135224.netlify.app/",
+    image: "https://d.top4top.io/p_3715huivz1.jpeg",
+    title: "Dar Al-Kalima (Educational Platform & Dashboard)",
+    github: "https://github.com/minasamir1401/Dar-al-Kalima-backend",
+    demo: "https://dar-al-kalima.vercel.app/",
   },
   {
     id: 5,
-    image: IMG5,
-    title: "Next.js Dashboard Project",
+    image: "https://e.top4top.io/p_3728oo7y51.jpg",
+    title: "FrameLab AI (Free AI Image Generator)",
     github: "https://github.com/minasamir1401/Next.js-Dashboard-Project",
-    demo: "https://nextui-dashboard.vercel.app/",
+    demo: "https://frame-lab-psi.vercel.app/",
   },
   {
     id: 6,
-    image: IMG6,
-    title: "Landing Page",
-    github: "#",
-    demo: "https://dynamic-pavlova-830596.netlify.app/",
+    image: "https://f.top4top.io/p_3715vx7m21.jpg",
+    title: "Read Up News (Real-time Global News)",
+    github: "https://github.com/minasamir1401/Read-Up-News",
+    demo: "https://read-up-news.web.app/",
   },
 ];
 
@@ -70,12 +65,16 @@ function Projects() {
             <h3>{title}</h3>
 
             <div className="portfolio_item-btns">
-              <a href={github} target="_blank" className="btn" id={`github-btn-${id}`}>
-                Github
-              </a>
-              <a href={demo} target="_blank" className="btn btn-primary" id={`demo-btn-${id}`}>
-                Live demo
-              </a>
+              {github && github !== "#" && (
+                <a href={github} target="_blank" rel="noreferrer" className="btn" id={`github-btn-${id}`}>
+                  Github
+                </a>
+              )}
+              {demo && demo !== "#" && (
+                <a href={demo} target="_blank" rel="noreferrer" className="btn btn-primary" id={`demo-btn-${id}`}>
+                  Live demo
+                </a>
+              )}
             </div>
           </article>
         ))}

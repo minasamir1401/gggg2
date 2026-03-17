@@ -2,7 +2,7 @@ import React from "react";
 import "./services.css";
 import { MdDesignServices } from "react-icons/md";
 import { IoIosRocket } from "react-icons/io";
-import { FaCode } from "react-icons/fa";
+import { FaCode, FaRobot, FaServer } from "react-icons/fa";
 
 function Services() {
   return (
@@ -12,27 +12,28 @@ function Services() {
         <h2>Services</h2>
       </div>
       <div className="container services_container">
+        
         <article className="card">
-          <MdDesignServices className="icon"/>
-          <h3>Web Design</h3>
+          <FaCode className="icon"/>
+          <h3>UI/UX Development</h3>
           <p className="text-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nobis repellat debitis accusantium sapiente eligendi.
+            I craft visually stunning and highly interactive user interfaces using modern frameworks like React and Next.js, ensuring a premium look and feel.
           </p>
         </article>
 
         <article className="card">
           <IoIosRocket className="icon"/>
-          <h3>Web Design</h3>
+          <h3>Performance Optimization</h3>
           <p className="text-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nobis repellat debitis accusantium sapiente eligendi.
+            Optimizing web applications for lightning-fast load times, SEO excellence, and smooth animations to provide the best possible user experience.
           </p>
         </article>
 
-                <article className="card">
-          <FaCode className="icon"/>
-          <h3>Web Design</h3>
+        <article className="card">
+          <MdDesignServices className="icon"/>
+          <h3>Responsive Web Design</h3>
           <p className="text-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nobis repellat debitis accusantium sapiente eligendi.
+            Ensuring your application looks and functions perfectly across all devices, from mobile phones to high-resolution desktop screens.
           </p>
         </article>
 
