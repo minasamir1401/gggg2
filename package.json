@@ -1,16 +1,13 @@
 {
   "name": "my-vite-portfolio",
   "version": "0.0.0",
-  "homepage": "https://minasamir1401.github.io/my-vite-portfolio",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@unhead/react": "^2.0.19",
