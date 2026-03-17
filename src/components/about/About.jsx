@@ -16,7 +16,7 @@ function About() {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_my_imge">
-            <img src={IMagME} alt="مينا سمير مبرمج واجهات أمامية ومطور ويب - Mina Samir Front-end Web Developer Portfolio" title="مينا سمير مبرمج - Mina Samir" loading="lazy" />
+            <img src={IMagME} alt="Mina Samir - Front-end Web Developer Portfolio" title="Mina Samir - Developer" loading="lazy" />
           </div>
         </div>
         <div className="about_content">

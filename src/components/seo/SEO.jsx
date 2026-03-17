@@ -2,13 +2,13 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 
 const SEO = ({ 
-  title = "Mina Samir | Front-end Developer | مينا سمير مبرمج واجهات أمامية", 
-  description = "Portfolio of Mina Samir - Front-end Developer specializing in React, Next.js, and modern UI design. مينا سمير مبرمج واجهات أمامية ومطور ويب.", 
+  title = "Mina Samir | Front-end Developer", 
+  description = "Portfolio of Mina Samir - Front-end Developer specializing in React, Next.js, and modern UI design.", 
   url = "https://minasamir.com",
   image = "https://minasamir.com/preview-image.png",
-  author = "Mina Samir (مينا سمير)",
+  author = "Mina Samir",
   twitterUsername = "@minasamir1401",
-  language = "ar"
+  language = "en"
 }) => {
   const personStructuredData = {
     "@context": "https://schema.org",

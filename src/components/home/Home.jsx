@@ -47,7 +47,7 @@ function Home() {
           <div className="home-image-wrapper">
             <div className="me-modern">
                <div className="glow-ring"></div>
-               <img src={me} alt="مينا سمير مبرمج واجهات أمامية - Mina Samir Front-end Web Developer" title="مينا سمير مبرمج - Mina Samir" loading="lazy" />
+               <img src={me} alt="Mina Samir - Front-end Web Developer" title="Mina Samir - Developer" loading="lazy" />
             </div>
           </div>
           
